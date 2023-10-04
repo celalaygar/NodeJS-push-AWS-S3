@@ -1,0 +1,17 @@
+{
+  "name": "aws-sender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "aws-sender-image.js",
+  "dependencies": {
+    "aws-sdk": "^2.1469.0",
+    "dotenv": "^16.3.1",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
