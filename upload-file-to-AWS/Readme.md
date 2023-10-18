@@ -20,6 +20,11 @@ npm install aws-sdk
 npm install fs
 npm install dotenv
 ```
+#### Sending image to aws bucket
 To Start Server:      `node aws-sender-image.js`
 
+#### Sending txt file to aws bucket
 To Start Server:      `node aws-sender-txt.js`
+
+#### Sending video to aws bucket 
+To Start Server:      `node aws-sender-video.js`
