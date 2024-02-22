@@ -1,3 +1,30 @@
-### how to upload txt and png file to AWS S3 BUCKET 
+# how to upload txt and png file to AWS S3 BUCKET By using NODEJS
 
-Read Readme.md  in upload-file-to-AWS folder to upload `txt file`, `mp4 video` and `image file`
+## FOR aws-sender-image.js AND aws-sender-txt.js in upload-file
+This project is simple uploading file by using node js and about uploading `txt` file and `image` file.
+
+Clone down this repository. You will need node and npm installed globally on your machine.
+
+first init npm:          `npm init`
+
+Installation:         `npm install`
+
+or Installation use below commond
+
+```
+npm i 
+```
+or
+```
+npm install aws-sdk 
+npm install fs
+npm install dotenv
+```
+#### Sending image to aws bucket
+To Start Server:      `node aws-sender-image.js`
+
+#### Sending txt file to aws bucket
+To Start Server:      `node aws-sender-txt.js`
+
+#### Sending video to aws bucket 
+To Start Server:      `node aws-sender-video.js`
